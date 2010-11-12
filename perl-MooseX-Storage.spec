@@ -17,7 +17,9 @@ BuildRequires: perl(String::RewritePrefix)
 BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Requires)
 BuildRequires: perl(Test::TempDir)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -43,7 +45,6 @@ Levels of Serialization
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-
 %make
 
 %check
@@ -61,5 +62,3 @@ rm -rf %buildroot
 %doc META.yml Changes README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
