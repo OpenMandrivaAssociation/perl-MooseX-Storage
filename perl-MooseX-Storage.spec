@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-Storage
-%define upstream_version 0.29
+%define upstream_version 0.30
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    A custom meta-attribute-trait to bypass serialization
 License:    GPL+ or Artistic
