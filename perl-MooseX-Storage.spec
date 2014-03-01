@@ -1,9 +1,8 @@
-%define upstream_name    MooseX-Storage
-%define upstream_version 0.30
+%define upstream_name    MooseX-Storage%define upstream_version 0.45
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	A custom meta-attribute-trait to bypass serialization
 License:	GPL+ or Artistic
@@ -79,4 +78,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Fri Aug 27 2010 Shlomi Fish <shlomif@mandriva.org> 0.270.0-1mdv2011.0
 + Revision: 573482
 - import perl-MooseX-Storage
+
 
