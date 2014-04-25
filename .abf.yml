@@ -1,4 +1,5 @@
 removed_sources:
   MooseX-Storage-0.30.tar.gz: c3dee24eb8756b4e9b8fc7b9ebc550e4cda4214d
-sources:
   MooseX-Storage-0.45.tar.gz: 524f1d94098bef87f78c8288120976a1fd0df8d3
+sources:
+  MooseX-Storage-0.46.tar.gz: 92484e68294b3c0af18ea851e291fea7571d5af3

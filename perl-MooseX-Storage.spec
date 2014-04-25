@@ -1,10 +1,12 @@
-%define upstream_name    MooseX-Storage%define upstream_version 0.45
+%define upstream_name    MooseX-Storage
+%define upstream_version 0.46
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A custom meta-attribute-trait to bypass serialization
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -57,27 +59,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc META.yml Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Mon May 02 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.300.0-1mdv2011.0
-+ Revision: 662127
-- update to new version 0.30
-
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.290.0-2
-+ Revision: 656945
-- rebuild for updated spec-helper
-
-* Sat Nov 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.290.0-1mdv2011.0
-+ Revision: 601937
-- update to new version 0.29
-
-* Fri Nov 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.280.0-1mdv2011.0
-+ Revision: 596738
-- adding missing buildrequires
-- update to 0.28
-
-* Fri Aug 27 2010 Shlomi Fish <shlomif@mandriva.org> 0.270.0-1mdv2011.0
-+ Revision: 573482
-- import perl-MooseX-Storage
 
 
